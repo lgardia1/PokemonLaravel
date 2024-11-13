@@ -35,7 +35,7 @@ class PokemonController extends Controller
             'name' => 'required|string|max:100|unique:pokemon,name',
             'weight' => 'required|numeric|min:0',
             'height' => 'required|numeric|min:0',
-            'evolution' => 'required|integer|min:0|max:4',
+            'evolution' => 'nullable|integer|min:0|max:4',
             'type' => 'required|in:water,ground,rock,fire,grass,electric,psychic,ice,dragon,dark,fairy'
         ]);
 
@@ -72,7 +72,7 @@ class PokemonController extends Controller
             'name' => 'required|string|max:100|unique:pokemon,name,'.$pokemon->id,
             'weight' => 'required|numeric|min:0',
             'height' => 'required|numeric|min:0',
-            'evolution' => 'required|integer|min:0|max:4',
+            'evolution' => 'nullable|integer|min:0|max:4',
             'type' => 'required|in:water,ground,rock,fire,grass,electric,psychic,ice,dragon,dark,fairy'
         ]);
 
