@@ -52,7 +52,7 @@ class PokemonController extends Controller
      */
     public function show(Pokemon $pokemon)
     {
-        return view("pokemon.show", ['pokemon' => $pokemon]);
+        return view("Pokemon.show", ['pokemon' => $pokemon]);
     }
 
     /**
