@@ -26,8 +26,9 @@ Los usuarios pueden añadir nuevos Pokémon a la base de datos proporcionando la
 Los usuarios pueden editar la información de un Pokémon existente. Los campos editables son:
 - **Nombre**
 - **Tipo**
-- **Ataque**
-- **Defensa**
+- **Peso**
+- **Altura**
+- **Evolucion**
 
 ### Ver Detalles de un Pokémon
 
